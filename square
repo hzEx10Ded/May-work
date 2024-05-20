@@ -1,0 +1,11 @@
+import math
+
+def calculate_surface_area(radius):
+    # Surface area of a sphere formula: 4 * pi * r^2
+    surface_area = 4 * math.pi * (radius ** 2)
+    return surface_area
+
+# Example usage
+radius = float(input("Enter the radius of the planet in kilometers: "))
+surface_area = calculate_surface_area(radius)
+print(f"The surface area of the planet is {surface_area:.2f} square kilometers.")
